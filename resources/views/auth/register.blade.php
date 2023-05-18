@@ -8,7 +8,7 @@
 
         <form method="POST" action="{{ route('register') }}" class="form">
             @csrf
-
+            
             <div class="input">
                 <x-label for="name" value="{{ __('Nome') }}" />
                 <x-input id="name" class="inputItem" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
@@ -21,6 +21,10 @@
             <div class="input">
                 <label for="email" value="label" >Cep</label>
                 <input  class="inputItem" >
+            </div>
+            <div class="input">
+                <x-label for="email" value="{{ __('Username') }}" />
+                <x-input id="email" class="inputItem" type="text" name="username" :value="old('username')" required autocomplete="username" />
             </div>
 
             <div class="input">

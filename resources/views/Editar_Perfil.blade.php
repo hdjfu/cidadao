@@ -33,7 +33,7 @@
                         </div>
                     <!-- Sobre Você -->
                         <div class="grid-35">
-                            <p class="perfil">{{$user->name}}</p>
+                            <p class="perfil">{{$user->username}}</p>
                             <label for="description" class="sobre-você">Sobre voçê:</label>
                             <textarea name="sobre_voce" id="" cols="30" rows="auto" tabindex="3" placeholder="{{$user->sobre_voce}}" value="{{$user->sobre_voce}}"></textarea>
                         </div>

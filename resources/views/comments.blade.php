@@ -8,7 +8,8 @@
             padding: 15px;
         }
 
-        .back{
+
+            .back{
             margin-right: auto;
             width: 35px;
         }
