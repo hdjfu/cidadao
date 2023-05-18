@@ -13,7 +13,9 @@
         <link href="/fonte" rel="stylesheet" />
 
         <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+        <link rel="stylesheet" href="/css/app.css">
+        <script src="/js/app.js" defer=""></script>
 
         <!-- Styles -->
         @livewireStyles
