@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    background-color: #000;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    display: flex;
+    background: linear-gradient(red, black);
+    min-height:100vh;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-color: #dcdcdc;
+    min-width: 150px;
+    max-width:350px;
+    width: 100%;
+    padding: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+.imagem{
+    width: 130px;
+    margin-bottom: 70px;
+
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    min-width: 100px;
+    width: 100%;
+}
+
+.campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+    
+}
+a{
+    color: #000;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.campo input{
+    margin-top: 7px;
+    height: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(1, 1, 1, 0);
+    border: 0;
+    border-bottom: solid rgb(134, 0, 0) 2px;
+    font-size: 15px;
+    padding-bottom: 4px;
+}
+.campo input:focus{
+    outline: none;
+}
+label{
+    text-align: left;
+    font-weight: bold;
+}
+.entrar{
+    margin: auto;
+    margin-top: 30px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(134, 0, 0);
+    color: #fff;
+    border-radius: 10px;
+
+    font-weight: bold;
+}
+.entrar:hover{
+    background-color: rgb(180, 0, 0);
+}
+.entrar:active{
+    background-color: rgb(100, 0, 0);
+}
+.login {
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(134, 0, 0);
+    color: #fff;
+    border-radius: 10px;
+    
+    
+    
+    font-weight: bold;
+}
+.flex{
+    margin: auto;
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background-color: rgb(134, 0, 0);
+    color: #fff;
+    border-radius: 10px;
+    
+    
+    
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}

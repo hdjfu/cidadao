@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+*{
+margin: 0px;
+padding: 0px;
+
+font-family: 'Golos Text', sans-serif;
+
+}
+body{
+background-color: #fff;
+height: 100vw;
+/*overflow-x: hidden;*/
+}
+
+
+/*header*/
+
+header{
+
+    padding: 10px 30px 10px 50px;
+    border-bottom: #aaa 1px solid;
+    display: flex;
+    align-items: center
+}
+
+header > a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 19px;
+}
+
+main{
+    /* max-width: 700px; */
+    height: 950px;
+    margin: 0px 20% 0px 20%;
+    /* border-left: #aaa 1px solid;
+    border-right: #aaa 1px solid; */
+    
+ }
+ @media screen  and (max-width: 500px) {
+    main{
+       max-width: none;
+       min-width: auto;
+       word-break:normal;
+       margin: 0;
+    }
+ }
+
+h1{
+font-size: 20px;
+}
+
+.menuButton{
+width: 40px;
+height: 40px;
+border-radius: 100%;
+margin-bottom: 10px;
+margin: 10px;
+}
+
+
+
+.notificacao{
+border: #999 1px solid;
+/* border-left: #999 1px solid;
+border-right: #999 1px solid; */
+display: flex;
+padding: 20px;;
+padding-right: 30px;
+margin: 10px;
+}
+.notificationIcon{
+width: 30px;
+height: 30px;
+border-radius: 100%;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+.notificationPhoto{
+width: 40px;
+height: 40px;
+border-radius: 100%;
+margin-right: 10px;
+margin-bottom: 10px;
+}
+p.name{
+font-weight: 900;
+}
+
+
+.texto p{
+display: inline;
+}
+
+/*Footer*/
+
+footer{
+position: fixed;
+height: 40px;
+bottom: 0px;
+background-color: #fff;
+width: 100%;
+
+border-top: #aaa 1px solid;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+padding: 10px 0 10px 0;
+}
+@media screen  and (max-width: 500px) {
+    footer{
+      justify-content: space-around;
+    }
+}
+footer > a{
+    padding: 10px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+footer > a:hover{
+    background-color: lightgray;
+    transition-duration: 0.2s;
+}
+
+footer img{
+margin: auto;
+width: 30px;
+flex-shrink: 0;
+}
+

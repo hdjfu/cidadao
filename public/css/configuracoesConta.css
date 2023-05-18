@@ -1,0 +1,83 @@
+
+                @import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+         *{
+            margin: 0px;
+            padding: 0px;
+
+            font-family: 'Golos Text', sans-serif;
+
+        }
+        body{
+            background-color: #fff;
+            height: 100vw;
+            /*overflow-x: hidden;*/
+        }
+
+
+        /*header*/
+
+        header{
+            padding: 10px;
+            border-bottom: #aaa 1px solid;
+            padding-bottom: 0px;
+            display: flex;
+            align-items: center;
+        }
+
+        h1{
+            font-size: 20px;
+        }
+
+        .menuButton{
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            margin-bottom: 10px;
+            margin: 10px;
+        }
+ 
+
+
+        .configuracao{
+            border-bottom: #aaa 1px solid;
+            display: flex;
+            padding: 20px;;
+            padding-right: 30px;
+            align-items: center;
+        }
+        .Icon{
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            margin-right: 10px;
+
+        }
+
+        p.name{
+            font-weight: 900;
+        }
+
+
+        .texto p{
+            display: inline;
+        }
+
+        /*Footer*/
+
+        footer{
+            position: fixed;
+            height: 40px;
+            bottom: 0px;
+            background-color: #fff;
+            width: 100%;
+
+            border-top: #aaa 1px solid;
+            display: flex;
+            padding: 5px;
+        }
+        footer img{
+            margin: auto;
+            width: 30px;
+            flex-shrink: 0;
+        }
+    
