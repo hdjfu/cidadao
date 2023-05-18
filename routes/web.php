@@ -55,7 +55,6 @@ route::post('/vote', [VoteController::class,'vote']);
 
 
 
-
 route::get('/suporte', function (){
     return view('support');
 });
@@ -80,6 +79,7 @@ route::get('/configuracoesConta', function (){
 route::get('/configuracoes/notificacoes', function (){
     return view('notificacaoConfig'); 
 });
+
 
 
 route::get('/perfil', [RedeControllers::class,'perfil']);
