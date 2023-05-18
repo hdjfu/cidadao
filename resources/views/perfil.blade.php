@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/Perfil.css">
-    <link rel="stylesheet" href="/css/feed.css">
+
+    
     <title>Perfil</title>
     <link rel="shortcut icon" href="/img/icon/favicon.png" type="image/x-icon">
-
+    <link rel="stylesheet" href="/css/perfil.css">
+    <link rel="stylesheet" href="/css/feed.css">
 </head>
 <body>
 <a href="/"><img class="back" src="https://img.icons8.com/material-outlined/256/left.png" ></a> 
